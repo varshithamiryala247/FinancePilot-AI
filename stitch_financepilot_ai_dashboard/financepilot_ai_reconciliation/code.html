@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>FinancePilot AI - Reconciliation</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-container": "#006f66",
+                      "on-primary-container": "#8590a6",
+                      "primary-container": "#1e293b",
+                      "primary": "#091426",
+                      "on-error-container": "#93000a",
+                      "surface-tint": "#545f73",
+                      "secondary-container": "#86f2e4",
+                      "secondary": "#006a61",
+                      "error-container": "#ffdad6",
+                      "tertiary-fixed-dim": "#ddc39d",
+                      "on-secondary": "#ffffff",
+                      "inverse-primary": "#bcc7de",
+                      "inverse-surface": "#303032",
+                      "background": "#fbf8fa",
+                      "tertiary-container": "#35260c",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-fixed-dim": "#6bd8cb",
+                      "on-tertiary-container": "#a38c6a",
+                      "on-secondary-fixed-variant": "#005049",
+                      "on-primary-fixed": "#111c2d",
+                      "on-primary": "#ffffff",
+                      "surface-container": "#f0edef",
+                      "on-tertiary": "#ffffff",
+                      "outline-variant": "#c5c6cd",
+                      "surface-dim": "#dcd9db",
+                      "surface-container-low": "#f5f3f4",
+                      "on-primary-fixed-variant": "#3c475a",
+                      "on-surface": "#1b1b1d",
+                      "inverse-on-surface": "#f3f0f2",
+                      "tertiary-fixed": "#fadfb8",
+                      "tertiary": "#1e1200",
+                      "surface-variant": "#e4e2e3",
+                      "surface-container-high": "#eae7e9",
+                      "outline": "#75777d",
+                      "on-surface-variant": "#45474c",
+                      "on-background": "#1b1b1d",
+                      "error": "#ba1a1a",
+                      "on-tertiary-fixed": "#271902",
+                      "on-error": "#ffffff",
+                      "primary-fixed": "#d8e3fb",
+                      "surface-bright": "#fbf8fa",
+                      "secondary-fixed": "#89f5e7",
+                      "on-secondary-fixed": "#00201d",
+                      "surface-container-highest": "#e4e2e3",
+                      "on-tertiary-fixed-variant": "#564427",
+                      "primary-fixed-dim": "#bcc7de",
+                      "surface": "#fbf8fa"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "stack-sm": "8px",
+                      "stack-lg": "24px",
+                      "margin-mobile": "16px",
+                      "stack-md": "16px",
+                      "gutter": "24px",
+                      "margin-desktop": "32px",
+                      "container-max-width": "1440px",
+                      "sidebar-width": "260px",
+                      "stack-xs": "4px"
+              },
+              "fontFamily": {
+                      "display-metrics": [
+                              "Inter"
+                      ],
+                      "table-header": [
+                              "Inter"
+                      ],
+                      "label-sm": [
+                              "Inter"
+                      ],
+                      "headline-lg": [
+                              "Inter"
+                      ],
+                      "headline-lg-mobile": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Inter"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ]
+              },
+              "fontSize": {
+                      "display-metrics": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "table-header": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "headline-lg": [
+                              "30px",
+                              {
+                                      "lineHeight": "38px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-md": [
+                              "20px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-secondary-container selection:text-on-secondary-container flex h-screen overflow-hidden">
+<!-- SideNavBar -->
+<nav aria-label="Sidebar" class="w-sidebar-width h-screen fixed left-0 top-0 bg-primary dark:bg-primary flex flex-col gap-stack-sm py-stack-lg z-20 transition-colors duration-200 ease-in-out hidden md:flex">
+<!-- Header / Brand -->
+<div class="px-6 mb-8 flex flex-col gap-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center shrink-0">
+<img alt="User Profile Avatar" class="w-full h-full object-cover rounded-full" data-alt="A professional, high-quality avatar of a corporate executive in a crisp navy suit, well-lit studio photography, soft shadows, neutral gray background. The subject exudes confidence and stability, aligning with a premium fintech aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7o5ARkCnJl9kbJSltAMA7Lv4yVW_NzP4wzZA39RSnDbT70pW0h4yg1cI68dTDn955DL2Mxa65HPXXb60lfgwNOi_cEbJfjJ1Uyo7sbqTOEakXwiVkWshcVrrlYabrz6WVCibb6iT8fRh2X6qEIGrzSV2m7CA2CvOIiZT6w1IRxCTm1eFbLXa2wliRp3MIyf59yWGLdNX2FKknejA8-_1CQTyneY-BryLJwhQKLdZWHXXdMCrphArgmt_9VHpTMZMVQvqX6Gd-Lmw"/>
+</div>
+<div>
+<h1 class="font-headline-md text-headline-md font-bold text-on-primary">FinancePilot AI</h1>
+<p class="font-label-sm text-label-sm text-on-primary-container opacity-80">Active Session</p>
+</div>
+</div>
+</div>
+<!-- Navigation Links -->
+<ul class="flex flex-col gap-2 flex-grow">
+<!-- Dashboard (Inactive) -->
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-on-primary-container opacity-70 hover:opacity-100 transition-opacity mx-2 hover:bg-primary-container/50 rounded-lg" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">dashboard</span>
+<span class="font-body-md text-body-md">Dashboard</span>
+</a>
+</li>
+<!-- Chat (Inactive) -->
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-on-primary-container opacity-70 hover:opacity-100 transition-opacity mx-2 hover:bg-primary-container/50 rounded-lg" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">chat</span>
+<span class="font-body-md text-body-md">Chat</span>
+</a>
+</li>
+<!-- Reconciliation (Active) -->
+<li>
+<a class="flex items-center gap-3 px-4 py-3 bg-primary-container text-on-primary-container rounded-lg mx-2 transition-colors duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">account_balance_wallet</span>
+<span class="font-body-md text-body-md font-medium text-on-primary">Reconciliation</span>
+</a>
+</li>
+<!-- Upload Data (Inactive) -->
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-on-primary-container opacity-70 hover:opacity-100 transition-opacity mx-2 hover:bg-primary-container/50 rounded-lg" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">cloud_upload</span>
+<span class="font-body-md text-body-md">Upload Data</span>
+</a>
+</li>
+<!-- Settings (Inactive) -->
+<li>
+<a class="flex items-center gap-3 px-4 py-3 text-on-primary-container opacity-70 hover:opacity-100 transition-opacity mx-2 hover:bg-primary-container/50 rounded-lg mt-auto" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">settings</span>
+<span class="font-body-md text-body-md">Settings</span>
+</a>
+</li>
+</ul>
+<!-- CTA -->
+<div class="px-6 mt-auto">
+<button class="w-full bg-secondary text-on-secondary font-body-md text-body-md font-medium py-2 px-4 rounded-lg hover:bg-on-secondary-container transition-colors duration-200 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">smart_toy</span>
+                Ask FinancePilot
+            </button>
+</div>
+</nav>
+<!-- Main Content Area -->
+<div class="flex-1 flex flex-col ml-0 md:ml-sidebar-width min-h-screen overflow-hidden">
+<!-- TopNavBar -->
+<header class="bg-surface dark:bg-surface border-b border-outline-variant dark:border-outline flat no shadows flex justify-between items-center h-16 px-margin-desktop w-full docked full-width top-0 sticky z-10">
+<!-- Left Side: Title / Search -->
+<div class="flex items-center gap-6">
+<!-- Mobile Menu Button (Visible only on mobile) -->
+<button class="md:hidden text-on-surface-variant hover:text-primary transition-colors cursor-pointer active:opacity-80">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<h2 class="font-headline-md text-headline-md font-extrabold text-primary">Reconciliation</h2>
+<!-- Search Bar -->
+<div class="hidden lg:flex items-center bg-surface-container-low border border-outline-variant rounded-full px-4 py-1.5 focus-within:ring-2 focus-within:ring-secondary focus-within:border-secondary transition-all">
+<span class="material-symbols-outlined text-on-surface-variant text-[20px] mr-2">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-body-md font-body-md text-on-surface w-64 placeholder-on-surface-variant/70" placeholder="Search transactions, invoices..." type="text"/>
+</div>
+</div>
+<!-- Right Side: Actions -->
+<div class="flex items-center gap-4">
+<button class="text-on-surface-variant hover:text-primary transition-colors cursor-pointer active:opacity-80 p-2 rounded-full hover:bg-surface-container-high">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">notifications</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors cursor-pointer active:opacity-80 p-2 rounded-full hover:bg-surface-container-high hidden sm:block">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">help_outline</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-surface-container-highest ml-2 flex items-center justify-center overflow-hidden border border-outline-variant cursor-pointer">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="A small, circular avatar image of a professional user, identical to the sidebar avatar but scaled down. Crisp, clear, high-contrast studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKF7BGVlJBotquxVkyxdjhOXO8v2ljtg22p6zbiFmFxHos2KnLMjyZf1hXQz3FU-2PTws5oA_Z9opc5lXQskpEDVFo5AXl_7NfLXjBV8XEQr63O5905_zQwZrQo3T_g7YIkSNUrXeKvHHlTKgGIJa-k-m39ROeL5E6ipDnWBsSKaOrqtH9Jhsu3mCKKi2HXpZuba3iwJap9hSnE7X8W7Nacug6yZRytPnmRWf3V4qExSteaJt-VrEozf6iR4yxBZm-s_RmaFjZjSM"/>
+</div>
+</div>
+</header>
+<!-- Canvas -->
+<main class="flex-1 overflow-y-auto p-margin-mobile md:p-margin-desktop bg-surface-container-lowest pb-24 md:pb-8">
+<div class="max-w-container-max-width mx-auto">
+<!-- Page Header & Tabs -->
+<div class="flex flex-col gap-6 mb-8 border-b border-outline-variant">
+<div class="flex justify-between items-end">
+<div>
+<h3 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-2">Review Matches</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Review and confirm suggested transaction matches. FinancePilot AI has identified potential pairings based on amount, date, and vendor details.</p>
+</div>
+<div class="hidden sm:flex gap-3">
+<button class="bg-surface text-primary border border-outline font-body-md text-body-md font-medium py-2 px-4 rounded-lg hover:bg-surface-container-low transition-colors duration-200 h-[40px] flex items-center">
+                                Bulk Reject
+                            </button>
+<button class="bg-secondary text-on-secondary font-body-md text-body-md font-medium py-2 px-4 rounded-lg hover:bg-on-secondary-container transition-colors duration-200 h-[40px] flex items-center shadow-[0px_4px_12px_rgba(30,41,59,0.05)]">
+                                Confirm All (4)
+                            </button>
+</div>
+</div>
+<!-- Navigation Tabs -->
+<ul class="flex gap-8">
+<li>
+<a class="inline-block pb-3 border-b-2 border-primary text-primary font-bold font-body-md text-body-md" href="#">
+                                Needs Review (4)
+                            </a>
+</li>
+<li>
+<a class="inline-block pb-3 border-b-2 border-transparent text-on-surface-variant font-medium font-body-md text-body-md hover:text-primary transition-colors" href="#">
+                                Matched
+                            </a>
+</li>
+<li>
+<a class="inline-block pb-3 border-b-2 border-transparent text-on-surface-variant font-medium font-body-md text-body-md hover:text-primary transition-colors" href="#">
+                                Unmatched
+                            </a>
+</li>
+</ul>
+</div>
+<!-- Needs Review List -->
+<div class="flex flex-col gap-6">
+<!-- Match Card 1 -->
+<div class="bg-surface-container-lowest border border-surface-variant rounded-[10px] p-6 shadow-[0px_4px_12px_rgba(30,41,59,0.05)] flex flex-col lg:flex-row gap-8 items-start lg:items-center relative">
+<!-- Decorative AI Link Icon -->
+<div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:flex w-10 h-10 bg-secondary-container text-on-secondary-container rounded-full items-center justify-center border-4 border-surface-container-lowest z-10 shadow-sm">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">compare_arrows</span>
+</div>
+<!-- Left Side: Invoice Details -->
+<div class="flex-1 w-full bg-surface-bright border border-surface-variant rounded-lg p-5">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">receipt_long</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Invoice Record</span>
+</div>
+<span class="bg-surface-container text-on-surface font-label-sm text-label-sm px-2 py-1 rounded">Open</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-body-md text-body-md text-on-surface-variant">Invoice #109</span>
+<span class="font-headline-md text-headline-md text-on-surface">Digital Ocean</span>
+<span class="font-headline-lg text-headline-lg-mobile text-primary mt-2">$250.00</span>
+<span class="font-body-md text-body-md text-on-surface-variant mt-1">Due: Oct 15, 2023</span>
+</div>
+</div>
+<!-- Mobile Separator -->
+<div class="lg:hidden w-full flex justify-center py-2 relative">
+<div aria-hidden="true" class="absolute inset-0 flex items-center">
+<div class="w-full border-t border-surface-variant"></div>
+</div>
+<div class="relative flex justify-center">
+<span class="bg-secondary-container text-on-secondary-container rounded-full p-1 border-4 border-surface-container-lowest shadow-sm">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">compare_arrows</span>
+</span>
+</div>
+</div>
+<!-- Right Side: Transaction Match -->
+<div class="flex-1 w-full bg-surface-bright border border-surface-variant rounded-lg p-5">
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">account_balance</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Bank Transaction</span>
+</div>
+<span class="bg-secondary-container/20 text-on-secondary-container font-label-sm text-label-sm px-2 py-1 rounded border border-secondary-container/30">Cleared</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-body-md text-body-md text-on-surface-variant">ACH Deposit</span>
+<span class="font-headline-md text-headline-md text-on-surface">DO-CLOUD</span>
+<span class="font-headline-lg text-headline-lg-mobile text-primary mt-2">$250.00</span>
+<span class="font-body-md text-body-md text-on-surface-variant mt-1">Date: Oct 14, 2023</span>
+</div>
+</div>
+<!-- Match Analysis & Actions -->
+<div class="w-full lg:w-72 flex flex-col gap-5 bg-surface-container-low rounded-lg p-5 border border-surface-variant">
+<!-- Confidence Score -->
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-end">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Confidence Score</span>
+<span class="font-body-md text-body-md text-secondary font-bold">92%</span>
+</div>
+<div class="w-full bg-surface-variant rounded-full h-2 overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 92%"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1 mt-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+                                    High Match Confidence
+                                </span>
+</div>
+<!-- Reason -->
+<div class="font-body-md text-body-md text-on-surface-variant text-sm bg-surface p-3 rounded border border-outline-variant/50 relative">
+<span class="material-symbols-outlined absolute top-3 left-3 text-outline text-[16px]">info</span>
+<p class="pl-6">Amount matches exactly; payer name 'DO-CLOUD' identified as Digital Ocean.</p>
+</div>
+<!-- Actions -->
+<div class="flex gap-3 mt-auto">
+<button class="flex-1 flex items-center justify-center gap-1 bg-surface text-primary border border-outline font-body-md text-body-md font-medium py-2 px-3 rounded-lg hover:bg-error-container hover:text-on-error-container hover:border-error-container transition-colors duration-200 h-[32px]">
+<span class="material-symbols-outlined text-[16px]">close</span>
+                                    Reject
+                                </button>
+<button class="flex-1 flex items-center justify-center gap-1 bg-secondary text-on-secondary font-body-md text-body-md font-medium py-2 px-3 rounded-lg hover:bg-on-secondary-container transition-colors duration-200 h-[32px]">
+<span class="material-symbols-outlined text-[16px]">check</span>
+                                    Confirm
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>

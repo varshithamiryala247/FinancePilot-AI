@@ -1,0 +1,33 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python compiled cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / Frontend builds
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.eslintcache
+
+# Local secret variables
+.env
+.env.local
+
+# IDE Configs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS System Files
+Thumbs.db
+.DS_Store

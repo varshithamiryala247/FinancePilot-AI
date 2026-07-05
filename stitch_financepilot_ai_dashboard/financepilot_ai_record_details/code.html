@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>FinancePilot AI - Invoice Details</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-container": "#006f66",
+                      "on-primary-container": "#8590a6",
+                      "primary-container": "#1e293b",
+                      "primary": "#091426",
+                      "on-error-container": "#93000a",
+                      "surface-tint": "#545f73",
+                      "secondary-container": "#86f2e4",
+                      "secondary": "#006a61",
+                      "error-container": "#ffdad6",
+                      "tertiary-fixed-dim": "#ddc39d",
+                      "on-secondary": "#ffffff",
+                      "inverse-primary": "#bcc7de",
+                      "inverse-surface": "#303032",
+                      "background": "#fbf8fa",
+                      "tertiary-container": "#35260c",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-fixed-dim": "#6bd8cb",
+                      "on-tertiary-container": "#a38c6a",
+                      "on-secondary-fixed-variant": "#005049",
+                      "on-primary-fixed": "#111c2d",
+                      "on-primary": "#ffffff",
+                      "surface-container": "#f0edef",
+                      "on-tertiary": "#ffffff",
+                      "outline-variant": "#c5c6cd",
+                      "surface-dim": "#dcd9db",
+                      "surface-container-low": "#f5f3f4",
+                      "on-primary-fixed-variant": "#3c475a",
+                      "on-surface": "#1b1b1d",
+                      "inverse-on-surface": "#f3f0f2",
+                      "tertiary-fixed": "#fadfb8",
+                      "tertiary": "#1e1200",
+                      "surface-variant": "#e4e2e3",
+                      "surface-container-high": "#eae7e9",
+                      "outline": "#75777d",
+                      "on-surface-variant": "#45474c",
+                      "on-background": "#1b1b1d",
+                      "error": "#ba1a1a",
+                      "on-tertiary-fixed": "#271902",
+                      "on-error": "#ffffff",
+                      "primary-fixed": "#d8e3fb",
+                      "surface-bright": "#fbf8fa",
+                      "secondary-fixed": "#89f5e7",
+                      "on-secondary-fixed": "#00201d",
+                      "surface-container-highest": "#e4e2e3",
+                      "on-tertiary-fixed-variant": "#564427",
+                      "primary-fixed-dim": "#bcc7de",
+                      "surface": "#fbf8fa"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "stack-sm": "8px",
+                      "stack-lg": "24px",
+                      "margin-mobile": "16px",
+                      "stack-md": "16px",
+                      "gutter": "24px",
+                      "margin-desktop": "32px",
+                      "container-max-width": "1440px",
+                      "sidebar-width": "260px",
+                      "stack-xs": "4px"
+              },
+              "fontFamily": {
+                      "display-metrics": [
+                              "Inter"
+                      ],
+                      "table-header": [
+                              "Inter"
+                      ],
+                      "label-sm": [
+                              "Inter"
+                      ],
+                      "headline-lg": [
+                              "Inter"
+                      ],
+                      "headline-lg-mobile": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Inter"
+                      ],
+                      "body-lg": [
+                              "Inter"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ]
+              },
+              "fontSize": {
+                      "display-metrics": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "table-header": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "headline-lg": [
+                              "30px",
+                              {
+                                      "lineHeight": "38px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-md": [
+                              "20px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex overflow-hidden">
+<!-- OVERLAY (Simulating slide-over is active over Dashboard) -->
+<div aria-hidden="true" class="fixed inset-0 bg-primary-container/40 z-40 transition-opacity"></div>
+<!-- MAIN DASHBOARD CONTENT (Blurred/Backgrounded) -->
+<div class="flex flex-1 w-full filter blur-[2px] pointer-events-none">
+<!-- SideNavBar -->
+<aside class="w-sidebar-width h-screen fixed left-0 top-0 bg-primary text-on-primary flex flex-col gap-stack-sm py-stack-lg z-10 transition-colors duration-200 ease-in-out">
+<div class="px-gutter mb-stack-lg flex items-center gap-stack-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary" style="font-variation-settings: 'FILL' 1;">sailing</span>
+</div>
+<div>
+<h1 class="font-headline-md text-headline-md font-bold text-on-primary">FinancePilot AI</h1>
+<p class="font-label-sm text-label-sm text-on-primary-container">Active Session</p>
+</div>
+</div>
+<nav class="flex-1 flex flex-col gap-stack-sm">
+<!-- Dashboard (Active intent contextually, but backgrounded) -->
+<a class="bg-primary-container text-on-primary-container rounded-lg mx-2 flex items-center gap-stack-sm px-stack-md py-3 transition-colors duration-200 ease-in-out" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-body-md text-body-md">Dashboard</span>
+</a>
+<a class="text-on-primary-container opacity-70 hover:opacity-100 transition-opacity mx-2 flex items-center gap-stack-sm px-stack-md py-3 hover:bg-primary-container/50 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="chat">chat</span>
+<span class="font-body-md text-body-md">Chat</span>
+</a>
+<a class="text-on-primary-container opacity-70 hover:opacity-100 transition-opacity mx-2 flex items-center gap-stack-sm px-stack-md py-3 hover:bg-primary-container/50 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="account_balance_wallet">account_balance_wallet</span>
+<span class="font-body-md text-body-md">Reconciliation</span>
+</a>
+<a class="text-on-primary-container opacity-70 hover:opacity-100 transition-opacity mx-2 flex items-center gap-stack-sm px-stack-md py-3 hover:bg-primary-container/50 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="cloud_upload">cloud_upload</span>
+<span class="font-body-md text-body-md">Upload Data</span>
+</a>
+<a class="text-on-primary-container opacity-70 hover:opacity-100 transition-opacity mx-2 flex items-center gap-stack-sm px-stack-md py-3 hover:bg-primary-container/50 rounded-lg" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span class="font-body-md text-body-md">Settings</span>
+</a>
+</nav>
+<div class="px-gutter mt-auto">
+<button class="w-full bg-primary-container text-on-primary hover:bg-primary-container/80 transition-colors py-2 rounded-lg font-body-md text-body-md font-medium flex items-center justify-center gap-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">smart_toy</span>
+                    Ask FinancePilot
+                </button>
+</div>
+</aside>
+<div class="flex-1 ml-sidebar-width flex flex-col h-screen">
+<!-- TopNavBar -->
+<header class="bg-surface text-primary-fixed flex justify-between items-center h-16 px-margin-desktop w-full border-b border-outline-variant z-10 sticky top-0">
+<div class="flex-1 max-w-md relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+<input class="w-full bg-surface-container-low border border-outline-variant rounded-lg pl-10 pr-4 py-2 font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-all" placeholder="Search..." type="text"/>
+</div>
+<div class="flex items-center gap-stack-md">
+<button class="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer active:opacity-80 p-2 rounded-full hover:bg-surface-container">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="text-on-surface-variant font-medium hover:text-primary transition-colors cursor-pointer active:opacity-80 p-2 rounded-full hover:bg-surface-container">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-outline-variant ml-2">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="A professional corporate headshot of a person looking confident, well-lit studio photography, soft white background, wearing modern business casual attire, high quality, serene aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5AAm1ajl5zVUfc6t3LRTmOP9KKFYzmw-N1MtzD1q2skipiL28j08jRNmTK41SrmrSKcbNoOJXHBU4DDBqsvAihjdDb2GIjtHrjRkD9ly7Oh35jb2sJq8EgmejSXX9z4OwuQUrLx5eXiGQDC-1qH38vYgzU0eTOqmXU6beINUoOGIIELUsDYmizK_fGQ-fF2QeLHiJU2pTqthzLVN4LE9MOCRNnCnishQYmNP5wkpj3oiEhNlhZbHDRklRsKv3QRl9FROQQqtzreY"/>
+</div>
+</div>
+</header>
+<!-- Dummy Dashboard Content -->
+<main class="p-margin-desktop flex-1 overflow-y-auto">
+<h2 class="font-headline-lg text-headline-lg mb-gutter">Recent Invoices</h2>
+<div class="grid grid-cols-12 gap-gutter">
+<div class="col-span-12 bg-surface-container-lowest rounded-lg border border-outline-variant p-gutter shadow-[0_4px_12px_rgba(30,41,59,0.05)]">
+<div class="h-64 bg-surface-container-low rounded flex items-center justify-center text-on-surface-variant">Background Dashboard Content</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+<!-- SLIDE-OVER PANEL -->
+<div class="fixed inset-y-0 right-0 w-full max-w-md bg-surface-container-lowest shadow-2xl z-50 flex flex-col border-l border-outline-variant transform transition-transform duration-300 translate-x-0">
+<!-- Header -->
+<div class="px-stack-lg py-stack-md border-b border-outline-variant flex items-center justify-between bg-surface">
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-1">Invoice Details</p>
+<h2 class="font-headline-md text-headline-md text-on-background">Invoice #2024-15</h2>
+</div>
+<button aria-label="Close panel" class="p-2 text-on-surface-variant hover:text-primary hover:bg-surface-container rounded-full transition-colors flex items-center justify-center">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<!-- Body -->
+<div class="flex-1 overflow-y-auto p-stack-lg flex flex-col gap-stack-lg">
+<!-- Key Metrics Card -->
+<div class="bg-surface-container-low rounded-lg p-stack-md border border-outline-variant flex flex-col gap-stack-sm">
+<div class="flex justify-between items-start">
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mb-1">Total Amount</p>
+<p class="font-headline-lg text-headline-lg text-on-background">$1,500.00</p>
+</div>
+<span class="inline-flex items-center px-2 py-1 rounded-full text-label-sm font-label-sm bg-secondary/10 text-secondary border border-secondary/20">
+                        Paid
+                    </span>
+</div>
+</div>
+<!-- Details Grid -->
+<div class="grid grid-cols-2 gap-y-stack-md gap-x-stack-lg">
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mb-1">Client</p>
+<p class="font-body-md text-body-md text-on-background font-medium">Acme Corp</p>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mb-1">Issue Date</p>
+<p class="font-body-md text-body-md text-on-background">Oct 12, 2023</p>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mb-1">Due Date</p>
+<p class="font-body-md text-body-md text-on-background">Nov 11, 2023</p>
+</div>
+</div>
+<hr class="border-outline-variant"/>
+<!-- Linked Transaction -->
+<div>
+<h3 class="font-body-lg text-body-lg font-semibold text-on-background mb-stack-md flex items-center gap-2">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">link</span>
+                    Linked Transaction
+                </h3>
+<div class="bg-surface rounded-lg border border-outline-variant p-stack-md hover:bg-surface-container-low transition-colors cursor-pointer group">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+</div>
+<div>
+<p class="font-body-md text-body-md font-medium text-on-background group-hover:text-primary transition-colors">Bank transfer ...8921</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Chase Business Checking</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+<div class="flex justify-between items-center text-label-sm font-label-sm text-on-surface-variant pt-2 border-t border-outline-variant/50">
+<span>Oct 14, 2023</span>
+<span class="text-secondary font-medium">+$1,500.00</span>
+</div>
+</div>
+</div>
+<!-- Notes / Memo -->
+<div>
+<h3 class="font-body-lg text-body-lg font-semibold text-on-background mb-stack-sm">Memo</h3>
+<p class="font-body-md text-body-md text-on-surface-variant bg-surface-container-low p-stack-sm rounded border border-outline-variant">
+                    Payment for Q3 Consulting Services and Data Analysis.
+                </p>
+</div>
+</div>
+<!-- Footer Actions -->
+<div class="p-stack-lg border-t border-outline-variant bg-surface-container-lowest flex gap-stack-md">
+<button class="flex-1 h-10 px-4 rounded-lg border border-primary text-primary font-body-md text-body-md font-medium hover:bg-primary/5 transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+                Edit Record
+            </button>
+<button class="flex-1 h-10 px-4 rounded-lg bg-primary text-on-primary font-body-md text-body-md font-medium hover:bg-primary/90 transition-colors shadow-sm flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">picture_as_pdf</span>
+                Export PDF
+            </button>
+</div>
+</div>
+</body></html>

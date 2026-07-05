@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is the total revenue and profit for the last 3 months?",
+    "expected_tools": ["get_revenue_expenses_profit"],
+    "expected_terms": ["revenue", "profit"]
+  },
+  {
+    "id": 2,
+    "question": "Who owes us the most money, and how much do they owe?",
+    "expected_tools": ["get_top_debtors"],
+    "expected_terms": ["Beta Services", "5,000"]
+  },
+  {
+    "id": 3,
+    "question": "What is our current cash runway and monthly burn rate?",
+    "expected_tools": ["get_cash_runway", "get_needs_review_matches"],
+    "expected_terms": ["runway", "burn"]
+  },
+  {
+    "id": 4,
+    "question": "Are there any unusual expenses or transaction anomalies in our records?",
+    "expected_tools": ["get_anomalies"],
+    "expected_terms": ["anomaly", "AWS"]
+  },
+  {
+    "id": 5,
+    "question": "Can I see the aging of receivables report?",
+    "expected_tools": ["get_aging_report"],
+    "expected_terms": ["0-30", "30-60", "60+"]
+  },
+  {
+    "id": 6,
+    "question": "Which transactions are currently flagged as needing review for reconciliation?",
+    "expected_tools": ["get_needs_review_matches"],
+    "expected_terms": ["review", "candidate"]
+  },
+  {
+    "id": 7,
+    "question": "Can we afford to hire a new subcontractor at $5,000/month based on our current cash runway?",
+    "expected_tools": ["get_cash_runway", "get_needs_review_matches"],
+    "expected_terms": ["runway", "burn", "subcontractor"]
+  },
+  {
+    "id": 8,
+    "question": "What was our total profit in the last month and are there any anomalous expenses?",
+    "expected_tools": ["get_revenue_expenses_profit", "get_anomalies"],
+    "expected_terms": ["profit", "anomaly"]
+  },
+  {
+    "id": 9,
+    "question": "Who is our biggest outstanding client and what aging bucket are they in?",
+    "expected_tools": ["get_top_debtors", "get_aging_report"],
+    "expected_terms": ["Beta Services", "overdue"]
+  },
+  {
+    "id": 10,
+    "question": "List the top debtor and the transactions that need manual review.",
+    "expected_tools": ["get_top_debtors", "get_needs_review_matches"],
+    "expected_terms": ["Beta Services", "review"]
+  }
+]

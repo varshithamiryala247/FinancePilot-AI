@@ -1,0 +1,231 @@
+txn_id,date,amount,payer_name,type,category,description
+TXN-901,2026-04-04,1765.53,Nexus Labs,credit,,Payment receipt INV-901
+TXN-902,2026-04-07,9504.73,Apex Systems,credit,,Payment receipt INV-902
+TXN-903,2026-04-03,2363.16,Hale & Co,credit,,Payment receipt INV-903
+TXN-904,2026-04-14,5294.54,Vanguard Media Group,credit,,Invoice settlement INV-904
+TXN-905,2026-04-04,4787.74,Zenith Solutions,credit,,Payment receipt INV-905
+TXN-906,2026-04-10,2924.35,Starlight Dev,credit,,Payment receipt INV-906
+TXN-907,2026-04-16,7258.39,Horizon Corp,credit,,Payment receipt INV-907
+TXN-908,2026-04-05,3847.76,Quantum Software,credit,,Payment receipt INV-908
+TXN-909,2026-04-20,10983.78,Nova Retail Group,credit,,Invoice settlement INV-909
+TXN-910,2026-04-15,2146.23,Ember Marketing,credit,,Payment receipt INV-910
+TXN-911,2026-04-10,5114.93,Echo Designs LLC,credit,,Partial payment for INV-911
+TXN-912,2026-04-07,6041.87,Pinnacle Group,credit,,Payment receipt INV-912
+TXN-913,2026-04-10,2201.86,Solaria Energy,credit,,Payment receipt INV-913
+TXN-914,2026-04-24,2563.5,Nebula Systems Inc,credit,,Invoice settlement INV-914
+TXN-915,2026-04-14,1429.35,Atlas Inc,credit,,Payment receipt INV-915
+TXN-916,2026-04-13,7392.81,Helix Ventures,credit,,Payment receipt INV-916
+TXN-917,2026-04-09,6268.36,Summit Agency,credit,,Payment receipt INV-917
+TXN-918,2026-04-15,9502.98,Matrix Tech,credit,,Payment receipt INV-918
+TXN-919,2026-04-19,6834.04,Delta Business Partners,credit,,Invoice settlement INV-919
+TXN-920,2026-04-20,3434.11,Orion Creative,credit,,Payment receipt INV-920
+TXN-921,2026-04-24,7996.06,Catalyst Digital LLC,credit,,Partial payment for INV-921
+TXN-922,2026-04-21,10843.77,Swift Logistics,credit,,Payment receipt INV-922
+TXN-923,2026-04-22,6737.72,Blue Horizon,credit,,Payment receipt INV-923
+TXN-924,2026-04-26,7016.01,Synergy Media Group,credit,,Invoice settlement INV-924
+TXN-925,2026-04-20,8399.9,Eclipse Apps,credit,,Payment receipt INV-925
+TXN-926,2026-04-19,6822.58,Nexus Labs,credit,,Payment receipt INV-926
+TXN-927,2026-04-14,5244.83,Apex Systems,credit,,Payment receipt INV-927
+TXN-928,2026-04-24,10351.29,Hale & Co,credit,,Payment receipt INV-928
+TXN-929,2026-04-29,3159.82,Vanguard Media Group,credit,,Invoice settlement INV-929
+TXN-930,2026-04-22,2092.19,Zenith Solutions,credit,,Payment receipt INV-930
+TXN-931,2026-04-23,8140.22,Starlight Dev Corp,credit,,Partial payment for INV-931
+TXN-932,2026-04-17,7185.4,Horizon Corp,credit,,Payment receipt INV-932
+TXN-933,2026-04-22,9009.62,Quantum Software,credit,,Payment receipt INV-933
+TXN-934,2026-04-24,7390.22,Nova Retail Group,credit,,Invoice settlement INV-934
+TXN-935,2026-04-26,1376.13,Ember Marketing,credit,,Payment receipt INV-935
+TXN-936,2026-04-27,2152.1,Echo Designs,credit,,Payment receipt INV-936
+TXN-937,2026-04-23,5125.97,Pinnacle Group,credit,,Payment receipt INV-937
+TXN-938,2026-04-24,11973.57,Solaria Energy,credit,,Payment receipt INV-938
+TXN-939,2026-05-02,6945.57,Nebula Systems Inc,credit,,Invoice settlement INV-939
+TXN-940,2026-04-19,10100.18,Atlas Inc,credit,,Payment receipt INV-940
+TXN-941,2026-05-08,7806.24,Helix Ventures LLC,credit,,Partial payment for INV-941
+TXN-942,2026-04-23,8003.9,Summit Agency,credit,,Payment receipt INV-942
+TXN-943,2026-04-22,7077.04,Matrix Tech,credit,,Payment receipt INV-943
+TXN-944,2026-05-01,2860.63,Delta Business Partners,credit,,Invoice settlement INV-944
+TXN-945,2026-05-03,6000.6,Orion Creative,credit,,Payment receipt INV-945
+TXN-946,2026-04-22,6182.0,Catalyst Digital,credit,,Payment receipt INV-946
+TXN-947,2026-04-25,2655.06,Swift Logistics,credit,,Payment receipt INV-947
+TXN-948,2026-05-04,1426.89,Blue Horizon,credit,,Payment receipt INV-948
+TXN-949,2026-04-29,5002.11,Synergy Media Group,credit,,Invoice settlement INV-949
+TXN-950,2026-05-03,11510.46,Eclipse Apps,credit,,Payment receipt INV-950
+TXN-951,2026-04-30,5516.34,Nexus Labs Inc,credit,,Partial payment for INV-951
+TXN-952,2026-05-05,6711.46,Apex Systems,credit,,Payment receipt INV-952
+TXN-953,2026-05-01,2158.92,Hale & Co,credit,,Payment receipt INV-953
+TXN-954,2026-05-09,10892.78,Vanguard Media Group,credit,,Invoice settlement INV-954
+TXN-955,2026-04-26,6986.65,Zenith Solutions,credit,,Payment receipt INV-955
+TXN-956,2026-05-06,7103.1,Starlight Dev,credit,,Payment receipt INV-956
+TXN-957,2026-05-01,5565.44,Horizon Corp,credit,,Payment receipt INV-957
+TXN-958,2026-05-04,4035.43,Quantum Software,credit,,Payment receipt INV-958
+TXN-959,2026-05-07,1556.74,Nova Retail Group,credit,,Invoice settlement INV-959
+TXN-960,2026-05-03,4816.17,Ember Marketing,credit,,Payment receipt INV-960
+TXN-961,2026-05-06,1180.18,Echo Designs LLC,credit,,Partial payment for INV-961
+TXN-962,2026-05-09,5725.61,Pinnacle Group,credit,,Payment receipt INV-962
+TXN-963,2026-05-01,10592.99,Solaria Energy,credit,,Payment receipt INV-963
+TXN-964,2026-05-04,5218.78,Nebula Systems Inc,credit,,Invoice settlement INV-964
+TXN-965,2026-05-10,9236.43,Atlas Inc,credit,,Payment receipt INV-965
+TXN-966,2026-05-08,1817.32,Helix Ventures,credit,,Payment receipt INV-966
+TXN-967,2026-05-05,5381.85,Summit Agency,credit,,Payment receipt INV-967
+TXN-968,2026-05-11,2778.3,Matrix Tech,credit,,Payment receipt INV-968
+TXN-969,2026-05-07,9542.48,Delta Business Partners,credit,,Invoice settlement INV-969
+TXN-970,2026-05-08,9582.24,Orion Creative,credit,,Payment receipt INV-970
+TXN-971,2026-05-15,4976.25,Catalyst Digital LLC,credit,,Partial payment for INV-971
+TXN-972,2026-05-15,7999.87,Swift Logistics,credit,,Payment receipt INV-972
+TXN-973,2026-05-09,7564.39,Blue Horizon,credit,,Payment receipt INV-973
+TXN-974,2026-05-08,1870.2,Synergy Media Group,credit,,Invoice settlement INV-974
+TXN-975,2026-05-04,6111.2,Eclipse Apps,credit,,Payment receipt INV-975
+TXN-976,2026-05-15,4975.03,Nexus Labs,credit,,Payment receipt INV-976
+TXN-977,2026-05-16,9193.78,Apex Systems,credit,,Payment receipt INV-977
+TXN-978,2026-05-09,8423.41,Hale & Co,credit,,Payment receipt INV-978
+TXN-979,2026-05-20,5833.29,Vanguard Media Group,credit,,Invoice settlement INV-979
+TXN-980,2026-05-14,1505.19,Zenith Solutions,credit,,Payment receipt INV-980
+TXN-981,2026-05-14,4539.74,Starlight Dev Corp,credit,,Partial payment for INV-981
+TXN-982,2026-05-18,2331.6,Horizon Corp,credit,,Payment receipt INV-982
+TXN-983,2026-05-16,5185.21,Quantum Software,credit,,Payment receipt INV-983
+TXN-984,2026-05-14,4872.87,Nova Retail Group,credit,,Invoice settlement INV-984
+TXN-985,2026-05-11,11242.01,Ember Marketing,credit,,Payment receipt INV-985
+TXN-986,2026-05-14,3395.34,Echo Designs,credit,,Payment receipt INV-986
+TXN-987,2026-05-09,4057.12,Pinnacle Group,credit,,Payment receipt INV-987
+TXN-988,2026-05-10,11333.23,Solaria Energy,credit,,Payment receipt INV-988
+TXN-989,2026-05-20,11526.17,Nebula Systems Inc,credit,,Invoice settlement INV-989
+TXN-990,2026-05-10,3354.59,Atlas Inc,credit,,Payment receipt INV-990
+TXN-991,2026-05-21,3179.94,Helix Ventures LLC,credit,,Partial payment for INV-991
+TXN-992,2026-05-16,4623.9,Summit Agency,credit,,Payment receipt INV-992
+TXN-993,2026-05-14,7188.97,Matrix Tech,credit,,Payment receipt INV-993
+TXN-994,2026-05-26,11237.24,Delta Business Partners,credit,,Invoice settlement INV-994
+TXN-995,2026-05-14,11302.93,Orion Creative,credit,,Payment receipt INV-995
+TXN-996,2026-05-20,9689.66,Catalyst Digital,credit,,Payment receipt INV-996
+TXN-997,2026-05-19,6516.7,Swift Logistics,credit,,Payment receipt INV-997
+TXN-998,2026-05-18,9591.11,Blue Horizon,credit,,Payment receipt INV-998
+TXN-999,2026-05-29,8908.64,Synergy Media Group,credit,,Invoice settlement INV-999
+TXN-1000,2026-05-22,7441.8,Eclipse Apps,credit,,Payment receipt INV-1000
+TXN-1001,2026-05-25,4609.56,Nexus Labs Inc,credit,,Partial payment for INV-1001
+TXN-1002,2026-05-24,11189.56,Apex Systems,credit,,Payment receipt INV-1002
+TXN-1003,2026-05-28,8055.65,Hale & Co,credit,,Payment receipt INV-1003
+TXN-1004,2026-05-27,9737.68,Vanguard Media Group,credit,,Invoice settlement INV-1004
+TXN-1005,2026-05-22,11679.79,Zenith Solutions,credit,,Payment receipt INV-1005
+TXN-1006,2026-05-18,8714.45,Starlight Dev,credit,,Payment receipt INV-1006
+TXN-1007,2026-05-23,8665.71,Horizon Corp,credit,,Payment receipt INV-1007
+TXN-1008,2026-05-23,10505.79,Quantum Software,credit,,Payment receipt INV-1008
+TXN-1009,2026-06-02,11542.98,Nova Retail Group,credit,,Invoice settlement INV-1009
+TXN-1010,2026-05-24,5744.23,Ember Marketing,credit,,Payment receipt INV-1010
+TXN-1011,2026-06-05,3370.61,Echo Designs LLC,credit,,Partial payment for INV-1011
+TXN-1012,2026-05-22,9340.11,Pinnacle Group,credit,,Payment receipt INV-1012
+TXN-1013,2026-06-01,5329.64,Solaria Energy,credit,,Payment receipt INV-1013
+TXN-1014,2026-05-29,1874.38,Nebula Systems Inc,credit,,Invoice settlement INV-1014
+TXN-1015,2026-05-25,5253.62,Atlas Inc,credit,,Payment receipt INV-1015
+TXN-1016,2026-05-23,10157.06,Helix Ventures,credit,,Payment receipt INV-1016
+TXN-1017,2026-05-28,10448.38,Summit Agency,credit,,Payment receipt INV-1017
+TXN-1018,2026-05-26,5179.99,Matrix Tech,credit,,Payment receipt INV-1018
+TXN-1019,2026-05-29,2521.13,Delta Business Partners,credit,,Invoice settlement INV-1019
+TXN-1020,2026-06-01,6630.56,Orion Creative,credit,,Payment receipt INV-1020
+TXN-1021,2026-06-08,4569.81,Catalyst Digital LLC,credit,,Partial payment for INV-1021
+TXN-1022,2026-05-25,5394.92,Swift Logistics,credit,,Payment receipt INV-1022
+TXN-1023,2026-06-05,6227.92,Blue Horizon,credit,,Payment receipt INV-1023
+TXN-1024,2026-06-01,11601.75,Synergy Media Group,credit,,Invoice settlement INV-1024
+TXN-1025,2026-06-01,3820.86,Eclipse Apps,credit,,Payment receipt INV-1025
+TXN-1026,2026-06-02,4071.87,Nexus Labs,credit,,Payment receipt INV-1026
+TXN-1027,2026-05-31,7277.88,Apex Systems,credit,,Payment receipt INV-1027
+TXN-1028,2026-06-06,3882.86,Hale & Co,credit,,Payment receipt INV-1028
+TXN-1029,2026-06-07,6119.25,Vanguard Media Group,credit,,Invoice settlement INV-1029
+TXN-1030,2026-05-31,10979.0,Zenith Solutions,credit,,Payment receipt INV-1030
+TXN-1031,2026-06-01,4705.09,Starlight Dev Corp,credit,,Partial payment for INV-1031
+TXN-1032,2026-06-07,1415.05,Horizon Corp,credit,,Payment receipt INV-1032
+TXN-1033,2026-05-31,6561.75,Quantum Software,credit,,Payment receipt INV-1033
+TXN-1034,2026-05-31,6355.07,Nova Retail Group,credit,,Invoice settlement INV-1034
+TXN-1035,2026-06-06,6279.33,Ember Marketing,credit,,Payment receipt INV-1035
+TXN-1036,2026-06-04,2728.76,Echo Designs,credit,,Payment receipt INV-1036
+TXN-1037,2026-06-02,10828.55,Pinnacle Group,credit,,Payment receipt INV-1037
+TXN-1038,2026-05-31,7655.06,Solaria Energy,credit,,Payment receipt INV-1038
+TXN-1039,2026-06-16,6204.79,Nebula Systems Inc,credit,,Invoice settlement INV-1039
+TXN-1040,2026-06-10,11019.45,Atlas Inc,credit,,Payment receipt INV-1040
+TXN-1041,2026-06-13,9321.26,Helix Ventures LLC,credit,,Partial payment for INV-1041
+TXN-1042,2026-06-01,10929.88,Summit Agency,credit,,Payment receipt INV-1042
+TXN-1043,2026-06-08,4662.73,Matrix Tech,credit,,Payment receipt INV-1043
+TXN-1044,2026-06-18,3657.83,Delta Business Partners,credit,,Invoice settlement INV-1044
+TXN-1045,2026-06-07,1876.46,Orion Creative,credit,,Payment receipt INV-1045
+TXN-1046,2026-06-09,4279.0,Catalyst Digital,credit,,Payment receipt INV-1046
+TXN-1047,2026-06-04,5062.36,Swift Logistics,credit,,Payment receipt INV-1047
+TXN-1048,2026-06-11,7756.23,Blue Horizon,credit,,Payment receipt INV-1048
+TXN-1049,2026-06-09,8476.71,Synergy Media Group,credit,,Invoice settlement INV-1049
+TXN-1050,2026-06-13,1703.51,Eclipse Apps,credit,,Payment receipt INV-1050
+TXN-1051,2026-06-14,2831.48,Nexus Labs Inc,credit,,Partial payment for INV-1051
+TXN-1052,2026-06-13,10549.27,Apex Systems,credit,,Payment receipt INV-1052
+TXN-1053,2026-06-14,3620.67,Hale & Co,credit,,Payment receipt INV-1053
+TXN-1054,2026-06-16,2195.31,Vanguard Media Group,credit,,Invoice settlement INV-1054
+TXN-1055,2026-06-15,7818.9,Zenith Solutions,credit,,Payment receipt INV-1055
+TXN-1056,2026-06-10,4216.43,Starlight Dev,credit,,Payment receipt INV-1056
+TXN-1057,2026-06-09,6823.63,Horizon Corp,credit,,Payment receipt INV-1057
+TXN-1058,2026-06-14,8063.27,Quantum Software,credit,,Payment receipt INV-1058
+TXN-1059,2026-06-23,5589.26,Nova Retail Group,credit,,Invoice settlement INV-1059
+TXN-1060,2026-06-09,6044.4,Ember Marketing,credit,,Payment receipt INV-1060
+TXN-1061,2026-06-22,7356.08,Echo Designs,credit,,Payment receipt INV-1061
+TXN-1062,2026-06-18,8264.16,Pinnacle Group,credit,,Payment receipt INV-1062
+TXN-1063,2026-06-17,5049.84,Solaria Energy,credit,,Payment receipt INV-1063
+TXN-1064,2026-06-27,2653.25,Nebula Systems Inc,credit,,Invoice settlement INV-1064
+TXN-1065,2026-06-14,3485.6,Atlas Inc,credit,,Payment receipt INV-1065
+TXN-1066,2026-06-15,11701.89,Helix Ventures,credit,,Payment receipt INV-1066
+TXN-1067,2026-06-13,11028.26,Summit Agency,credit,,Payment receipt INV-1067
+TXN-1068,2026-06-12,5559.43,Matrix Tech,credit,,Payment receipt INV-1068
+TXN-1069,2026-06-25,1318.33,Delta Business Partners,credit,,Invoice settlement INV-1069
+TXN-1070,2026-06-13,4676.73,Orion Creative,credit,,Payment receipt INV-1070
+TXN-1071,2026-06-17,1651.89,Catalyst Digital,credit,,Payment receipt INV-1071
+TXN-1072,2026-06-20,9092.31,Swift Logistics,credit,,Payment receipt INV-1072
+TXN-1073,2026-06-17,8747.31,Blue Horizon,credit,,Payment receipt INV-1073
+TXN-1074,2026-06-21,4485.19,Synergy Media Group,credit,,Invoice settlement INV-1074
+TXN-1075,2026-06-20,8446.26,Eclipse Apps,credit,,Payment receipt INV-1075
+TXN-1076,2026-06-16,3489.72,Nexus Labs,credit,,Payment receipt INV-1076
+TXN-1077,2026-06-28,9285.57,Apex Systems,credit,,Payment receipt INV-1077
+TXN-1078,2026-06-20,2851.05,Hale & Co,credit,,Payment receipt INV-1078
+TXN-1079,2026-06-27,5674.31,Vanguard Media Group,credit,,Invoice settlement INV-1079
+TXN-1080,2026-06-24,8354.15,Zenith Solutions,credit,,Payment receipt INV-1080
+TXN-1081,2026-06-21,5419.27,Starlight Dev,credit,,Payment receipt INV-1081
+TXN-1082,2026-06-25,5412.94,Horizon Corp,credit,,Payment receipt INV-1082
+TXN-1083,2026-06-23,10579.16,Quantum Software,credit,,Payment receipt INV-1083
+TXN-1084,2026-07-02,2703.6,Nova Retail Group,credit,,Invoice settlement INV-1084
+TXN-1085,2026-06-21,8981.03,Ember Marketing,credit,,Payment receipt INV-1085
+TXN-1086,2026-04-01,1200.0,WeWork Inc,debit,rent,Office workspace rent semimonthly
+TXN-1087,2026-04-15,1200.0,WeWork Inc,debit,rent,Office workspace rent semimonthly
+TXN-1088,2026-04-20,250.0,Comcast Cable,debit,utilities,Monthly utility charge
+TXN-1089,2026-04-22,180.0,Electric Grid,debit,utilities,Monthly utility charge
+TXN-1090,2026-04-25,95.0,Office Water Corp,debit,utilities,Monthly utility charge
+TXN-1091,2026-04-05,1500.0,Facebook Ads,debit,marketing,Standard ad campaign
+TXN-1092,2026-04-18,1500.0,Facebook Ads,debit,marketing,Standard ad campaign
+TXN-1093,2026-04-02,400.0,AWS Cloud,debit,software_subscriptions,Server hosting costs
+TXN-1094,2026-04-05,120.0,Figma Inc,debit,software_subscriptions,Design team seats
+TXN-1095,2026-04-10,6100.0,Google Workspace,debit,software_subscriptions,Audit seats migration and cloud license (Anomaly)
+TXN-1096,2026-04-08,80.0,Slack Technologies,debit,software_subscriptions,Team communication subscription
+TXN-1097,2026-04-12,90.0,Adobe Creative Cloud,debit,software_subscriptions,Design editing utilities
+TXN-1098,2026-04-14,150.0,Zoom Video Communications,debit,software_subscriptions,Enterprise video hosting
+TXN-1099,2026-04-06,800.0,HubSpot,debit,software_subscriptions,CRM system database license
+TXN-1100,2026-04-11,200.0,Mailchimp,debit,software_subscriptions,Newsletter mailing system
+TXN-1101,2026-05-01,1200.0,WeWork Inc,debit,rent,Office workspace rent semimonthly
+TXN-1102,2026-05-15,1200.0,WeWork Inc,debit,rent,Office workspace rent semimonthly
+TXN-1103,2026-05-20,250.0,Comcast Cable,debit,utilities,Monthly utility charge
+TXN-1104,2026-05-22,180.0,Electric Grid,debit,utilities,Monthly utility charge
+TXN-1105,2026-05-25,95.0,Office Water Corp,debit,utilities,Monthly utility charge
+TXN-1106,2026-05-05,1500.0,Facebook Ads,debit,marketing,Standard ad campaign
+TXN-1107,2026-05-18,1500.0,Facebook Ads,debit,marketing,Standard ad campaign
+TXN-1108,2026-05-02,400.0,AWS Cloud,debit,software_subscriptions,Server hosting costs
+TXN-1109,2026-05-05,4200.0,Figma Inc,debit,software_subscriptions,Annual enterprise license upgrade (Anomaly)
+TXN-1110,2026-05-10,350.0,Google Workspace,debit,software_subscriptions,Company email seats
+TXN-1111,2026-05-08,80.0,Slack Technologies,debit,software_subscriptions,Team communication subscription
+TXN-1112,2026-05-12,90.0,Adobe Creative Cloud,debit,software_subscriptions,Design editing utilities
+TXN-1113,2026-05-14,150.0,Zoom Video Communications,debit,software_subscriptions,Enterprise video hosting
+TXN-1114,2026-05-06,800.0,HubSpot,debit,software_subscriptions,CRM system database license
+TXN-1115,2026-05-11,200.0,Mailchimp,debit,software_subscriptions,Newsletter mailing system
+TXN-1116,2026-06-01,1200.0,WeWork Inc,debit,rent,Office workspace rent semimonthly
+TXN-1117,2026-06-15,1200.0,WeWork Inc,debit,rent,Office workspace rent semimonthly
+TXN-1118,2026-06-20,250.0,Comcast Cable,debit,utilities,Monthly utility charge
+TXN-1119,2026-06-22,180.0,Electric Grid,debit,utilities,Monthly utility charge
+TXN-1120,2026-06-25,95.0,Office Water Corp,debit,utilities,Monthly utility charge
+TXN-1121,2026-06-05,1500.0,Facebook Ads,debit,marketing,Standard ad campaign
+TXN-1122,2026-06-18,22000.0,Facebook Ads,debit,marketing,Unusual broad-audience marketing ad campaign (Anomaly)
+TXN-1123,2026-06-02,9800.0,AWS Cloud,debit,software_subscriptions,Unusual cloud storage charges (Anomaly)
+TXN-1124,2026-06-05,120.0,Figma Inc,debit,software_subscriptions,Design team seats
+TXN-1125,2026-06-10,350.0,Google Workspace,debit,software_subscriptions,Company email seats
+TXN-1126,2026-06-08,80.0,Slack Technologies,debit,software_subscriptions,Team communication subscription
+TXN-1127,2026-06-12,90.0,Adobe Creative Cloud,debit,software_subscriptions,Design editing utilities
+TXN-1128,2026-06-14,150.0,Zoom Video Communications,debit,software_subscriptions,Enterprise video hosting
+TXN-1129,2026-06-06,800.0,HubSpot,debit,software_subscriptions,CRM system database license
+TXN-1130,2026-06-11,200.0,Mailchimp,debit,software_subscriptions,Newsletter mailing system
