@@ -1,4 +1,4 @@
-const API_BASE = ""; // requests are proxied via vite proxy in dev
+const API_BASE = import.meta.env.VITE_API_BASE || ""; // requests are proxied in dev, read from env in prod
 
 const api = {
   async getDashboard() {
