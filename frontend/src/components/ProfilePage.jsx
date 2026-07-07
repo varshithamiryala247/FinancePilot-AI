@@ -86,7 +86,7 @@ export default function ProfilePage({ onProfileUpdate }) {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-gutter items-start">
         
         {/* Left Sub-nav panel */}
-        <div className="md:col-span-1 bg-white border border-outline-variant rounded-[10px] p-2 space-y-1 shadow-sm">
+        <div className="flex overflow-x-auto md:flex-col md:col-span-1 bg-white border border-outline-variant rounded-[10px] p-2 gap-2 md:space-y-1 md:gap-0 shadow-sm scrollbar-none">
           {[
             { id: "personal", label: "Personal Info", icon: "person" },
             { id: "security", label: "Security", icon: "shield" },
@@ -96,7 +96,7 @@ export default function ProfilePage({ onProfileUpdate }) {
             <button
               key={tab.id}
               onClick={() => setActiveSubTab(tab.id)}
-              className={`w-full flex items-center gap-3 px-3 py-2 text-left rounded-lg text-xs font-bold transition-all ${
+              className={`flex items-center gap-2 md:gap-3 px-3 py-2 text-left rounded-lg text-xs font-bold transition-all shrink-0 md:w-full ${
                 activeSubTab === tab.id 
                   ? "bg-primary-container text-on-primary-container font-extrabold" 
                   : "text-on-surface-variant hover:text-primary hover:bg-background/80"

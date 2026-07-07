@@ -52,9 +52,9 @@ export default function Dashboard({ onOpenCitation }) {
       
       {/* Live Reconciliation Pending Banner */}
       {needs_review_count > 0 && (
-        <div className="flex items-center justify-between p-4 bg-error-container/30 border border-error-container/50 rounded-[10px] animate-pulse">
-          <div className="flex items-center gap-3">
-            <div className="p-2 bg-error-container/50 text-error rounded-lg">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-4 bg-error-container/30 border border-error-container/50 rounded-[10px] animate-pulse">
+          <div className="flex items-start gap-3">
+            <div className="p-2 bg-error-container/50 text-error rounded-lg shrink-0">
               <span className="material-symbols-outlined text-md">help_outline</span>
             </div>
             <div>
@@ -64,7 +64,7 @@ export default function Dashboard({ onOpenCitation }) {
           </div>
           <button 
             onClick={() => window.location.href = "/reconciliation"}
-            className="px-4 py-1.5 bg-secondary text-on-secondary text-xs font-semibold rounded-lg hover:bg-on-secondary-container transition-all"
+            className="w-full sm:w-auto px-4 py-1.5 bg-secondary text-on-secondary text-xs font-semibold rounded-lg hover:bg-on-secondary-container transition-all shrink-0 text-center"
           >
             Reconcile Now
           </button>

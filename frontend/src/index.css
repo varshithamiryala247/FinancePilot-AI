@@ -12,6 +12,10 @@ body {
   font-family: 'Outfit', sans-serif;
 }
 
+.font-display-serif {
+  font-family: 'Cormorant Garamond', 'Georgia', serif;
+}
+
 /* Custom scrollbars */
 ::-webkit-scrollbar {
   width: 6px;

@@ -1,1 +1,1602 @@
-[]
+[
+  {
+    "invoice_id": "INV-901",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-902",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-903",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-904",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-905",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-906",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-907",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-908",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-909",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-910",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-911",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-912",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-913",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-914",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-915",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-916",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-917",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-918",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-919",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-920",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-921",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-922",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-923",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-924",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-925",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-926",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-927",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-928",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-929",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-930",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-931",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-932",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-933",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-934",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-935",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-936",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-937",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-938",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-939",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-940",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-941",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-942",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-943",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-944",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-945",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-946",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-947",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-948",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-949",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-950",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-951",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-952",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-953",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-954",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-955",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-956",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-957",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-958",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-959",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-960",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-961",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-962",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-963",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-964",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-965",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-966",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-967",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-968",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-969",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-970",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-971",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-972",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-973",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-974",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-975",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-976",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-977",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-978",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-979",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-980",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-981",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-982",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-983",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-984",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-985",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-986",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-987",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-988",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-989",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-990",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-991",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-992",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-993",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-994",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-995",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-996",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-997",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-998",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-999",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1000",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1001",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1002",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1003",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1004",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1005",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1006",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1007",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1008",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1009",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1010",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1011",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1012",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1013",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1014",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1015",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1016",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1017",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1018",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1019",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1020",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1021",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1022",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1023",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1024",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1025",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1026",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1027",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1028",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1029",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1030",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1031",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1032",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1033",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1034",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1035",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1036",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1037",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1038",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1039",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1040",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1041",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1042",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1043",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1044",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1045",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1046",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1047",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1048",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1049",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1050",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1051",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1052",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1053",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1054",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1055",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1056",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1057",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1058",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1059",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1060",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1061",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1062",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1063",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1064",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1065",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1066",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1067",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1068",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1069",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1070",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1071",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1072",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1073",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1074",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1075",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1076",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1077",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1078",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1079",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1080",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1081",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1082",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1083",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1084",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1085",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1086",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1087",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1088",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1089",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1090",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1091",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1092",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1093",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1094",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1095",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1096",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1097",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1098",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1099",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  },
+  {
+    "invoice_id": "INV-1100",
+    "matched_txn_id": null,
+    "match_type": null,
+    "confidence_score": 0.0,
+    "status": "unpaid",
+    "reason": "No matching credit transactions found in window"
+  }
+]

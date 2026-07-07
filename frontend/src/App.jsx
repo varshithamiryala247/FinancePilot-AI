@@ -20,6 +20,7 @@ export default function App() {
   const [activeCitation, setActiveCitation] = useState(null);
   const [dashboardKey, setDashboardKey] = useState(0);
   const [chatOpen, setChatOpen] = useState(true); // Toggle right-hand chat drawer
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     localStorage.setItem("financepilot_currentTab", currentTab);
@@ -167,6 +168,141 @@ export default function App() {
         />
       )}
 
+      {/* Mobile Drawer Navigation (visible only on mobile) */}
+      {mobileMenuOpen && (
+        <>
+          {/* Backdrop click-shield */}
+          <div 
+            onClick={() => setMobileMenuOpen(false)}
+            className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 md:hidden"
+          />
+          {/* Slide-out Drawer */}
+          <nav 
+            className="fixed inset-y-0 left-0 z-50 bg-primary flex flex-col py-stack-lg border-r border-transparent w-[260px] h-full shadow-2xl md:hidden"
+          >
+            {/* Close Button & Brand */}
+            <div className="flex justify-between items-center px-6 mb-8">
+              <div 
+                onClick={() => { setCurrentTab("landing"); setMobileMenuOpen(false); }}
+                className="flex items-center gap-3 cursor-pointer group"
+              >
+                <div className="w-8 h-8 rounded-full bg-secondary-container flex items-center justify-center shrink-0">
+                  <span className="material-symbols-outlined text-secondary text-sm group-hover:rotate-12 transition-transform">flight_takeoff</span>
+                </div>
+                <div className="flex flex-col overflow-hidden text-left">
+                  <span className="font-display text-sm font-bold text-on-primary tracking-tight truncate">FinancePilot AI</span>
+                  <span className="text-[10px] text-on-primary opacity-60 truncate">Calm CFO Mode</span>
+                </div>
+              </div>
+              <button 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-on-primary-container opacity-70 hover:opacity-100 p-1.5 rounded-lg hover:bg-primary-container/40"
+              >
+                <span className="material-symbols-outlined text-md text-white">close</span>
+              </button>
+            </div>
+
+            {/* New Transaction Action Block */}
+            <div className="px-4 mb-6">
+              <button 
+                onClick={() => { setCurrentTab("upload"); setMobileMenuOpen(false); }}
+                className="w-full bg-secondary hover:bg-on-secondary-container text-on-secondary py-2.5 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 shadow"
+              >
+                <span className="material-symbols-outlined text-[16px]">add</span>
+                New Transaction
+              </button>
+            </div>
+
+            {/* Links List */}
+            <ul className="flex-1 overflow-y-auto px-2 flex flex-col gap-1">
+              <li>
+                <button
+                  onClick={() => { setCurrentTab("dashboard"); setMobileMenuOpen(false); }}
+                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all text-left ${
+                    currentTab === "dashboard"
+                      ? "bg-primary-container text-on-primary-container font-semibold"
+                      : "text-on-primary-container opacity-70 hover:opacity-100 hover:bg-primary-container/40"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-lg ${currentTab === 'dashboard' ? 'fill-icon' : ''}`}>dashboard</span>
+                  <span className="text-xs">Dashboard</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => { setCurrentTab("reconciliation"); setMobileMenuOpen(false); }}
+                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all text-left ${
+                    currentTab === "reconciliation"
+                      ? "bg-primary-container text-on-primary-container font-semibold"
+                      : "text-on-primary-container opacity-70 hover:opacity-100 hover:bg-primary-container/40"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-lg ${currentTab === 'reconciliation' ? 'fill-icon' : ''}`}>account_balance_wallet</span>
+                  <span className="text-xs">Reconciliation</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => { setCurrentTab("upload"); setMobileMenuOpen(false); }}
+                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all text-left ${
+                    currentTab === "upload"
+                      ? "bg-primary-container text-on-primary-container font-semibold"
+                      : "text-on-primary-container opacity-70 hover:opacity-100 hover:bg-primary-container/40"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-lg ${currentTab === 'upload' ? 'fill-icon' : ''}`}>cloud_upload</span>
+                  <span className="text-xs">Data Upload</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => { setCurrentTab("evaluation"); setMobileMenuOpen(false); }}
+                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all text-left ${
+                    currentTab === "evaluation"
+                      ? "bg-primary-container text-on-primary-container font-semibold"
+                      : "text-on-primary-container opacity-70 hover:opacity-100 hover:bg-primary-container/40"
+                  }`}
+                >
+                  <span className={`material-symbols-outlined text-lg ${currentTab === 'evaluation' ? 'fill-icon' : ''}`}>analytics</span>
+                  <span className="text-xs">Copilot Evaluation</span>
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => { setCurrentTab("profile"); setMobileMenuOpen(false); }}
+                  className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all text-left ${
+                    currentTab === "profile"
+                      ? "bg-[#86f2e4] text-[#00201d] font-bold"
+                      : "text-on-primary-container opacity-70 hover:opacity-100 hover:bg-primary-container/40"
+                  }`}
+                >
+                  <span className="material-symbols-outlined text-lg">settings</span>
+                  <span className="text-xs">Settings</span>
+                </button>
+              </li>
+            </ul>
+
+            {/* CFO User Profile Section */}
+            <div 
+              onClick={() => { setCurrentTab("profile"); setMobileMenuOpen(false); }}
+              className="px-4 border-t border-primary-container/20 pt-4 cursor-pointer hover:bg-slate-900/40 transition-colors"
+            >
+              <div className="flex items-center gap-3 overflow-hidden">
+                <img 
+                  alt="CFO Profile Avatar" 
+                  className="w-9 h-9 rounded-full object-cover border border-primary-container"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs21CGSzIy-Ica5tozmGffG_RhR1LO_uBMAnm0XFmynNnWO4aeKeoeOD-4Gf1iu6Xl-NiPBYMtq6xSXOOVHnCbM6Pb3OcW4vdk_Ph4sqIlRUfdJqfe6_TOr0jN_lRf0R9kRBJsN9Vrqbklkh8TvNzs3qxwD3CA7DA9Upmg0nB7EeH9SriDQgJNpsbcbGNrooUqI76l26Q4An8OVpdACqHxy0LaM8oCxYupdZrfeSfbXzrcKxyotH-3kBGpA76IVovRxCNdPOyUtF0"
+                />
+                <div className="flex flex-col overflow-hidden text-left">
+                  <span className="text-xs font-semibold text-on-primary truncate">{profile.full_name}</span>
+                  <span className="text-[10px] text-on-primary opacity-60 truncate">Settings Panel</span>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </>
+      )}
+
       {/* 1. Left Sidebar Navigation (Dark Slate Navy) with Resize Grabber */}
       <nav 
         style={{ width: `${sidebarWidth}px` }}
@@ -312,9 +448,15 @@ export default function App() {
       <div className="flex-grow flex flex-col h-full min-w-0 bg-surface">
         
         {/* Top Navbar Header */}
-        <header className="bg-white border-b border-outline-variant flex justify-between items-center h-16 px-margin-desktop w-full shrink-0">
-          <div className="flex items-center gap-4">
-            <h2 className="font-headline-md text-headline-md font-extrabold text-primary capitalize tracking-tight">
+        <header className="bg-white border-b border-outline-variant flex justify-between items-center h-16 px-margin-mobile md:px-margin-desktop w-full shrink-0">
+          <div className="flex items-center gap-3 md:gap-4 min-w-0">
+            <button 
+              onClick={() => setMobileMenuOpen(true)}
+              className="md:hidden text-on-surface-variant hover:text-primary transition-colors p-1.5 rounded-full hover:bg-background shrink-0"
+            >
+              <span className="material-symbols-outlined text-md">menu</span>
+            </button>
+            <h2 className="font-headline-md text-base md:text-headline-md font-extrabold text-primary capitalize tracking-tight truncate">
               {currentTab === 'reconciliation' ? 'Ledger Reconciliation' : currentTab === 'evaluation' ? 'Accuracy Benchmarks' : currentTab === 'upload' ? 'Ingestion Sources' : currentTab === 'profile' ? 'Account Settings' : 'Executive Dashboard'}
             </h2>
           </div>
@@ -443,7 +585,7 @@ export default function App() {
                       </thead>
                       <tbody className="divide-y divide-outline-variant/30">
                         {evalResult.results.map((r, i) => (
-                          <React.Fragment key={i}>
+                           <React.Fragment key={i}>
                             <tr className="hover:bg-background/20">
                               <td className="py-3.5 px-4 text-center font-bold text-on-surface-variant/60 font-mono">{r.id}</td>
                               <td className="py-3.5 px-4 font-semibold text-primary leading-normal">{r.question}</td>
@@ -498,23 +640,30 @@ export default function App() {
 
       {/* 3. Resizable docked Right Sidebar AI Copilot Chat Drawer */}
       {chatOpen && (
-        <div 
-          style={{ width: `${chatWidth}px` }} 
-          className="h-full flex flex-col border-l border-outline-variant bg-white shrink-0 relative"
-        >
-          {/* Draggable left-border divider handle */}
+        <>
+          {/* Backdrop for mobile */}
           <div 
-            onMouseDown={startChatResizing}
-            className={`absolute left-0 top-0 w-1.5 h-full cursor-col-resize hover:bg-secondary/50 active:bg-secondary z-30 transition-all ${
-              isChatResizing ? 'bg-secondary w-1.5' : ''
-            }`}
+            onClick={() => setChatOpen(false)}
+            className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-40 md:hidden"
           />
+          <div 
+            style={window.innerWidth >= 768 ? { width: `${chatWidth}px` } : {}}
+            className="fixed inset-y-0 right-0 z-40 w-full sm:w-[380px] md:relative md:inset-auto md:z-0 h-full flex flex-col border-l border-outline-variant bg-white shrink-0 shadow-2xl md:shadow-none"
+          >
+            {/* Draggable left-border divider handle */}
+            <div 
+              onMouseDown={startChatResizing}
+              className={`absolute left-0 top-0 w-1.5 h-full cursor-col-resize hover:bg-secondary/50 active:bg-secondary z-30 transition-all hidden md:block ${
+                isChatResizing ? 'bg-secondary w-1.5' : ''
+              }`}
+            />
 
-          <ChatPanel 
-            onOpenCitation={setActiveCitation} 
-            onClose={() => setChatOpen(false)}
-          />
-        </div>
+            <ChatPanel 
+              onOpenCitation={setActiveCitation} 
+              onClose={() => setChatOpen(false)}
+            />
+          </div>
+        </>
       )}
 
     </div>

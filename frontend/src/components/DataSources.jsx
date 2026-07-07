@@ -83,17 +83,17 @@ export default function DataSources({ onExploreDemo }) {
     <div className="space-y-6 overflow-y-auto max-h-[calc(100vh-4rem)] p-margin-mobile md:p-margin-desktop lg:p-10 w-full max-w-container-max-width mx-auto">
       
       {/* Page Header */}
-      <div className="flex justify-between items-start">
+      <div className="flex flex-col gap-4 lg:flex-row lg:justify-between lg:items-start">
         <div>
           <h2 className="text-2xl font-bold font-display text-primary tracking-tight">Financial Data Sources</h2>
           <p className="text-sm text-on-surface-variant/80 mt-1">Upload files or connect data integrations to ingest bank ledgers, tax papers, and invoices.</p>
         </div>
         
         {/* Real Document template links */}
-        <div className="flex gap-2 text-xs font-semibold">
+        <div className="flex flex-wrap gap-2 text-xs font-semibold w-full lg:w-auto">
           <button 
             onClick={handleDatabaseReset}
-            className="px-3 py-1.5 bg-[#fce8e6] text-[#ba1a1a] hover:bg-[#ba1a1a] hover:text-white rounded-lg transition-colors flex items-center gap-1.5 shadow-sm border border-red-200/40"
+            className="flex-1 sm:flex-none px-3 py-1.5 bg-[#fce8e6] text-[#ba1a1a] hover:bg-[#ba1a1a] hover:text-white rounded-lg transition-colors flex items-center justify-center gap-1.5 shadow-sm border border-red-200/40"
           >
             <span className="material-symbols-outlined text-[16px]">delete_forever</span>
             Reset Database
@@ -101,18 +101,18 @@ export default function DataSources({ onExploreDemo }) {
           <a 
             href="/api/sample/invoices" 
             download="sample_invoices.csv"
-            className="px-3 py-1.5 bg-white border border-outline-variant hover:bg-slate-50 text-primary rounded-lg transition-colors flex items-center gap-1.5 shadow-sm"
+            className="flex-1 sm:flex-none px-3 py-1.5 bg-white border border-outline-variant hover:bg-slate-50 text-primary rounded-lg transition-colors flex items-center justify-center gap-1.5 shadow-sm text-center"
           >
             <span className="material-symbols-outlined text-[16px]">download</span>
-            Sample Invoices
+            Invoices
           </a>
           <a 
             href="/api/sample/transactions" 
             download="sample_transactions.csv"
-            className="px-3 py-1.5 bg-white border border-outline-variant hover:bg-slate-50 text-primary rounded-lg transition-colors flex items-center gap-1.5 shadow-sm"
+            className="flex-1 sm:flex-none px-3 py-1.5 bg-white border border-outline-variant hover:bg-slate-50 text-primary rounded-lg transition-colors flex items-center justify-center gap-1.5 shadow-sm text-center"
           >
             <span className="material-symbols-outlined text-[16px]">download</span>
-            Sample Transactions
+            Transactions
           </a>
         </div>
       </div>
